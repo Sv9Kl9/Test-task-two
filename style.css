@@ -166,12 +166,12 @@
 }
 
 .signature-img-one{
-  background: url(./img/girl.jpg);
+  background: url(../img/girl.jpg);
   background-size: contain;
 }
 
 .signature-img-two{
-  background: url(./img/man.png);
+  background: url(../img/man.png);
   background-size: cover;
 }
 
