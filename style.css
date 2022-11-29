@@ -351,6 +351,7 @@
   order: 1;
   flex-grow: 0;
   z-index: 1;
+  transition: all ease 0.3s;
 }
 
 .button-arrow{
@@ -366,15 +367,53 @@
 }
 
 .services-card:hover .button-marker{
-  animation: growing 0.5s forwards;
+  /* animation: growing 0.5s forwards;
+  animation-direction: alternate;
+  animation-iteration-count: 1; */
+
+  margin-left: -301px;
+    width: 304px;
+    height: 56px;
+    transform: translate(26px);
+  transition: all ease 0.3s;
 }
 
 @keyframes growing {
-  from {
+  /* 0%{
     margin-left: 0px;
     width: 24px;
     height: 24px;
     transform: translate(0);
+  }
+  20%{
+    width: 29px;
+    height: 29px;
+    transform: translate(5px);
+  }
+  50%{
+    
+    width: 34px;
+    height: 34px;
+    transform: translate(10px);
+    
+  }
+  70%{
+    width: 39px;
+    height: 39px;
+    transform: translate(15px);
+  }
+  100%{
+    margin-left: -301px;
+    width: 304px;
+    height: 56px;
+    transform: translate(26px);
+    
+  } */
+  /* from {
+    margin-left: 0px;
+    width: 24px;
+    height: 24px;
+    transform: translate(0px);
   }
 
   to{
@@ -382,7 +421,7 @@
     width: 304px;
     height: 56px;
     transform: translate(26px);
-  }
+  } */
 }
 
 .services-card:hover .button-arrow{
